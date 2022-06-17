@@ -653,7 +653,7 @@ footer{
       pre{
         transform: translate(-21vw, -3vh);
         img{
-          transform: scale(0.4) translate(-40vw, 12vh);
+          transform: scale(0.4) translate(-46vw, 12vh);
         }
       }
       span{
@@ -668,7 +668,9 @@ footer{
       transform: translate(65vw,-4vh);
     }
     span{
-      left:5vw ;
+      position: absolute;
+      top: 13vh;
+      left:25vw ;
     }
   }
   li:hover{

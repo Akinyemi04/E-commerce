@@ -760,8 +760,8 @@ footer button img {
             transform: translate(-21vw, -3vh);
   }
   .pride section pre img, .tide section pre img {
-    -webkit-transform: scale(0.4) translate(-40vw, 12vh);
-            transform: scale(0.4) translate(-40vw, 12vh);
+    -webkit-transform: scale(0.4) translate(-46vw, 12vh);
+            transform: scale(0.4) translate(-46vw, 12vh);
   }
   .pride section span, .tide section span {
     top: 8vh;
@@ -773,7 +773,9 @@ footer button img {
             transform: translate(65vw, -4vh);
   }
   .pride span {
-    left: 5vw;
+    position: absolute;
+    top: 13vh;
+    left: 25vw;
   }
   li:hover {
     padding-bottom: 1vh;
