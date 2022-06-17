@@ -645,7 +645,7 @@ footer button img {
   }
   .side {
     width: 95vw;
-    top: 33vh;
+    top: 30vh;
     -webkit-transform: translate(0);
             transform: translate(0);
     margin-left: 3vw;
@@ -658,6 +658,12 @@ footer button img {
             margin-block-end: 0em;
     margin-bottom: 1vh;
   }
+  .side h6 {
+    -webkit-margin-before: 0em;
+            margin-block-start: 0em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+  }
   .side blockquote {
     width: 88vw;
   }
@@ -667,41 +673,41 @@ footer button img {
   .side del {
     left: 82vw;
     top: none;
-    -webkit-transform: translatey(50px);
-            transform: translatey(50px);
+    -webkit-transform: translatey(25px);
+            transform: translatey(25px);
   }
   footer div {
     position: absolute;
-    -webkit-transform: translate(-44vw, 18vh);
-            transform: translate(-44vw, 18vh);
-    height: 4vh;
+    -webkit-transform: translate(-44vw, 16vh);
+            transform: translate(-44vw, 16vh);
+    height: 6vh;
     width: 89vw;
   }
   footer div img {
-    -webkit-transform: translate(75vw, 3px);
-            transform: translate(75vw, 3px);
+    -webkit-transform: translate(75vw, 7px);
+            transform: translate(75vw, 7px);
   }
   footer div p {
-    -webkit-transform: translate(40vw, -5px);
-            transform: translate(40vw, -5px);
+    -webkit-transform: translate(40vw, -2px);
+            transform: translate(40vw, -2px);
   }
   footer div #minus {
-    -webkit-transform: translate(1vw, 4px);
-            transform: translate(1vw, 4px);
+    -webkit-transform: translate(1vw, 11px);
+            transform: translate(1vw, 11px);
   }
   footer button {
     width: 90vw;
-    height: 4vh;
+    height: 7vh;
     -webkit-transform: translate(-56vw, 24vh);
             transform: translate(-56vw, 24vh);
   }
   footer button h4 {
-    -webkit-transform: translatex(29vw);
-            transform: translatex(29vw);
+    -webkit-transform: translate(29vw, 10px);
+            transform: translate(29vw, 10px);
   }
   footer button img {
-    -webkit-transform: scale(0.6) translate(44vw, 10px);
-            transform: scale(0.6) translate(44vw, 10px);
+    -webkit-transform: scale(0.6) translate(44vw, 22px);
+            transform: scale(0.6) translate(44vw, 22px);
   }
   .knight {
     display: none;
@@ -768,6 +774,9 @@ footer button img {
   }
   .pride span {
     left: 5vw;
+  }
+  li:hover {
+    padding-bottom: 1vh;
   }
 }
 

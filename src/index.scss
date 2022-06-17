@@ -532,6 +532,7 @@ footer{
         color: black;
         margin-left: 3vw;
       }
+     
     }
   }
   hr{
@@ -553,7 +554,7 @@ footer{
   }
   .side{
     width: 95vw;
-    top: 33vh;
+    top: 30vh;
     transform: translate(0);
     margin-left:3vw ;
     h1{
@@ -561,6 +562,10 @@ footer{
       margin-block-start: 0em;
       margin-block-end: 0em;
       margin-bottom: 1vh;
+    }
+    h6{
+      margin-block-start: 0em;
+      margin-block-end: 0em;
     }
     blockquote{
       width: 88vw;
@@ -571,34 +576,34 @@ footer{
     del{
       left: 82vw;
       top: none;
-      transform: translatey(50px);
+      transform: translatey(25px);
     }
   }
   footer{
     div{
       position:absolute;
-      transform: translate(-44vw,18vh);
-      height: 4vh;
+      transform: translate(-44vw,16vh);
+      height: 6vh;
       width: 89vw;
       img{
-    transform: translate(75vw,3px);
+    transform: translate(75vw,7px);
       }
       p{
-        transform: translate(40vw, -5px);
+        transform: translate(40vw,-2px);
       }
       #minus{    
-      transform: translate(1vw, 4px);
+      transform: translate(1vw, 11px);
       }
     }
     button{
       width: 90vw;
-      height: 4vh;
+      height: 7vh;
       transform: translate(-56vw,24vh);
       h4{
-        transform: translatex(29vw);
+        transform: translate(29vw,10px);
       }
       img{
-        transform:scale(0.6) translate(44vw, 10px); ;
+        transform:scale(0.6) translate(44vw, 22px); ;
       }
     }
   }
@@ -666,6 +671,10 @@ footer{
       left:5vw ;
     }
   }
+  li:hover{
+    padding-bottom:1vh;
+  }
+  
 }
 @media screen and (max-width:550px) and (min-height:668px) {
   .side{
