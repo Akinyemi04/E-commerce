@@ -207,7 +207,7 @@ footer{
       transform: translatex(50px);
     }
     img{
-     transform: scale(0.6) translate(80px,25px);
+     transform: scale(0.6) translate(80px,25px) ;
     }
   }
 }
@@ -543,10 +543,10 @@ footer{
     margin-top:0vh;
     margin-left: 0vw;
     .sec{
-      width: 96vw;
+      width: 85vw;
       margin-left: 0vw;
-      margin-left: 2vw;
-      height: 31vh;
+      margin-left: 8vw;
+      height: 30vh;
     }
     .sect{
       display: none;
