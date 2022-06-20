@@ -200,9 +200,9 @@ li:hover {
 }
 
 .side del {
-  position: absolute;
-  top: 38vh;
-  left: 1vw;
+  position: fixed;
+  top: 35vh;
+  left: 2vw;
   font-size: smaller;
   color: #68707d;
 }
@@ -228,7 +228,7 @@ footer div {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 6vw;
+  width: 8vw;
   height: 5vh;
   background-color: #f7f8fd;
   border-radius: 6px;
@@ -247,11 +247,16 @@ footer div #minus {
   height: 7px;
   -webkit-transform: translate(7px, 4px);
           transform: translate(7px, 4px);
+  margin-left: 1vw;
 }
 
 footer div p {
-  -webkit-transform: translate(20px, -5px);
-          transform: translate(20px, -5px);
+  -webkit-transform: translate(1.6vw, 1.6vh);
+          transform: translate(1.6vw, 1.6vh);
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
 }
 
 footer button {
@@ -262,9 +267,10 @@ footer button {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-top: 2vh;
   margin-left: 3vw;
   width: 16vw;
-  height: 8vh;
+  height: 6vh;
   border: 1px solid #ff7d1a;
   border-radius: 1vw;
   background-color: #ff7d1a;
@@ -272,13 +278,13 @@ footer button {
 
 footer button h4 {
   color: white;
-  -webkit-transform: translatex(50px);
-          transform: translatex(50px);
+  -webkit-transform: translatex(3.2vw);
+          transform: translatex(3.2vw);
 }
 
 footer button img {
-  -webkit-transform: scale(0.6) translate(80px, 25px);
-          transform: scale(0.6) translate(80px, 25px);
+  -webkit-transform: scale(0.6) translate(4.9vw, 25px);
+          transform: scale(0.6) translate(4.9vw, 25px);
 }
 
 .knight {
@@ -453,9 +459,12 @@ footer button img {
     -webkit-transform: scale(0.5) translate(-18vw, 8vh);
             transform: scale(0.5) translate(-18vw, 8vh);
   }
+  footer div {
+    width: 10vw;
+  }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
   .age {
     margin-top: 6vh;
     margin-left: 3vw;
@@ -510,7 +519,9 @@ footer button img {
     width: 35vw;
   }
   .side del {
+    position: fixed;
     top: 25vh;
+    left: 18vw;
   }
   footer div {
     width: 10vw;
@@ -519,10 +530,14 @@ footer button img {
   footer div img {
     margin-top: 1vh;
   }
+  footer div p {
+    -webkit-transform: translate(2.1vw, 0.8vh);
+            transform: translate(2.1vw, 0.8vh);
+  }
   footer button {
     position: absolute;
     width: 20vw;
-    height: 3vh;
+    height: 4vh;
     margin-top: 2vh;
     margin-left: 5vw;
     left: 6vw;
@@ -671,8 +686,8 @@ footer button img {
     margin-left: 2vw;
   }
   .side del {
-    left: 82vw;
-    top: none;
+    left: 75vw;
+    top: 22vh;
     -webkit-transform: translatey(25px);
             transform: translatey(25px);
   }
@@ -688,8 +703,8 @@ footer button img {
             transform: translate(75vw, 7px);
   }
   footer div p {
-    -webkit-transform: translate(40vw, -2px);
-            transform: translate(40vw, -2px);
+    -webkit-transform: translate(39vw, 2vh);
+            transform: translate(39vw, 2vh);
   }
   footer div #minus {
     -webkit-transform: translate(1vw, 11px);
@@ -782,10 +797,11 @@ footer button img {
   }
 }
 
-@media screen and (max-width: 550px) and (min-height: 668px) {
-  .side del {
-    -webkit-transform: translatey(-1vh);
-            transform: translatey(-1vh);
+/*@media screen and (max-width:550px) and (min-height:668px) {
+  .side{
+    del{
+      transform: translatey(-1vh);
+    }
   }
-}
+}*/
 /*# sourceMappingURL=index.css.map */

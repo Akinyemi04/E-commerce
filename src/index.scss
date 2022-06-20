@@ -157,9 +157,9 @@ li:hover{
     font-size: small;
   }
   del{
-    position: absolute;
-    top: 38vh;
-    left: 1vw;
+    position: fixed;
+    top: 35vh;
+    left: 2vw;
     font-size: smaller;
     color:$dark-grey-blue;
     
@@ -175,7 +175,7 @@ footer{
   width: 25vw;
   div{
     @include flex;
-    width: 6vw;
+    width: 8vw;
     height: 5vh;
     background-color:$light-grey-blue;
     border-radius: 6px;
@@ -189,25 +189,29 @@ footer{
     #minus{
       height:7px;
       transform: translate(7px,4px);
+      margin-left:1vw ;
     }
     p{
-      transform: translate(20px,-5px)
+      transform: translate(1.6vw,1.6vh);
+      margin-block-start: 0em;
+      margin-block-end: 0em;
     }
   }
   button{
     @include flex;
+    margin-top: 2vh;
     margin-left: 3vw;
     width: 16vw;
-    height: 8vh;
+    height: 6vh;
     border:1px solid $orange;
     border-radius: 1vw;
     background-color: $orange;
     h4{
       color: white;
-      transform: translatex(50px);
+      transform: translatex(3.2vw);
     }
     img{
-     transform: scale(0.6) translate(80px,25px) ;
+     transform: scale(0.6) translate(4.9vw,25px) ;
     }
   }
 }
@@ -357,8 +361,13 @@ footer{
       }
     }
   }
+  footer{
+    div{
+      width: 10vw;
+    }
+  }
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:930px) {
   .age{
     margin-top: 6vh;
     margin-left: 3vw;
@@ -419,7 +428,9 @@ footer{
       width: 35vw;
     }
     del{
+      position: fixed;
       top: 25vh;
+      left: 18vw;
     }
   }
   footer{
@@ -429,11 +440,14 @@ footer{
       img{
         margin-top: 1vh;
       }
+      p{
+        transform: translate(2.1vw,0.8vh);
+      }
     }
     button{
       position: absolute;
       width:20vw;
-      height: 3vh;
+      height: 4vh;
       margin-top: 2vh;
       margin-left: 5vw;
       left: 6vw;
@@ -574,8 +588,8 @@ footer{
       margin-left: 2vw;
     }
     del{
-      left: 82vw;
-      top: none;
+      left: 75vw;
+      top: 22vh;
       transform: translatey(25px);
     }
   }
@@ -589,7 +603,7 @@ footer{
     transform: translate(75vw,7px);
       }
       p{
-        transform: translate(40vw,-2px);
+        transform: translate( 39vw,2vh);
       }
       #minus{    
       transform: translate(1vw, 11px);
@@ -678,10 +692,10 @@ footer{
   }
   
 }
-@media screen and (max-width:550px) and (min-height:668px) {
+/*@media screen and (max-width:550px) and (min-height:668px) {
   .side{
     del{
       transform: translatey(-1vh);
     }
   }
-}
+}*/

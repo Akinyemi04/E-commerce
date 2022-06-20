@@ -89,10 +89,12 @@ const Body = () => {
           setVal(3)
       }
   }
+  
   return (
     <>
       <div className='age'>
-          <img alt='' onClick={click} src={fit} className='sec'></img>
+          <img alt=''  onClick={click} src={fit} className='sec'></img>
+          
           <section className='sect'>
               <img style={{opacity:pp1x, border:pp1}} id='imk' onClick={saint} src={p1x} alt='' ></img>
               <img style={{opacity:pp2x, border:pp2}} id='imk' onClick={paint} src={p2x} alt=''></img>
