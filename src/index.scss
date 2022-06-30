@@ -96,7 +96,7 @@ hr{position: absolute;
     height: 49vh;
     background-color: azure;
     border-radius: 1vw;
-    object-fit:fill;
+    object-fit:cover;
     }
     .sect{
       display: flex;
@@ -696,10 +696,3 @@ footer{
   }
   
 }
-/*@media screen and (max-width:550px) and (min-height:668px) {
-  .side{
-    del{
-      transform: translatey(-1vh);
-    }
-  }
-}*/
