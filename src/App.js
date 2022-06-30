@@ -58,7 +58,7 @@ function App() {
         </ul>
         <section>
           <><img className='eve' alt ='' onClick={cap} src={cart}></img> <p style={{display:sap}}>{val}</p> </>
-          {raise && <Cart num={val} item={price} check={setRaise} />}
+          {raise && <Cart num={val} item={price} check={setRaise} tip={setVal} />}
           <img src={imm} alt='' className='adam'></img>
         </section>
       </nav>

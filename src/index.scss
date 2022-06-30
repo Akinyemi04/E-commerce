@@ -96,6 +96,7 @@ hr{position: absolute;
     height: 49vh;
     background-color: azure;
     border-radius: 1vw;
+    object-fit:fill;
     }
     .sect{
       display: flex;
@@ -107,6 +108,7 @@ hr{position: absolute;
         width: 6vw;
         height: 12vh;
         margin-left:1vw;
+        object-fit: fill;
         border-radius: 1vw;
       }
     }
@@ -230,6 +232,7 @@ footer{
     transform: translate(33vw,12vh);
     .pec{
     width: 33vw;
+    object-fit:cover;
     height: 63vh;
     border-radius: 1vw;
     background-color: white;
@@ -259,6 +262,7 @@ footer{
     height: 12vh;
     margin-left: 1vw;
     border-radius: 1vw;
+    object-fit:cover;
     }
   }
   

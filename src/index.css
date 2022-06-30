@@ -118,6 +118,8 @@ hr {
   height: 49vh;
   background-color: azure;
   border-radius: 1vw;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .age .sect {
@@ -138,6 +140,8 @@ hr {
   width: 6vw;
   height: 12vh;
   margin-left: 1vw;
+  -o-object-fit: fill;
+     object-fit: fill;
   border-radius: 1vw;
 }
 
@@ -307,6 +311,8 @@ footer button img {
 
 .knight section .pec {
   width: 33vw;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: 63vh;
   border-radius: 1vw;
   background-color: white;
@@ -343,6 +349,8 @@ footer button img {
   height: 12vh;
   margin-left: 1vw;
   border-radius: 1vw;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .left:hover, .knight section .right:hover {

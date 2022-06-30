@@ -13,6 +13,7 @@ const Cart = (props) => {
     }
     function bint(){
         setPick('none')
+        props.tip(0)
     }
     if (props.num === 0){
         return (
