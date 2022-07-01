@@ -73,9 +73,9 @@ function App() {
       </aside>
       <footer>
         <div>
-            <img id='minus' onClick={min} src={minus} alt=''></img>
+            <img id='minus' className='beep' onClick={min} src={minus} alt=''></img>
             <p>{val}</p>
-            <img onClick={max} src={plus} alt=''></img>
+            <img onClick={max} className='beep' src={plus} alt=''></img>
         </div>
         <button onClick={fun}>
           <img src={cart} alt=''></img>
